@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_alignParentBottom="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+               >
+                <ImageView
+                    android:id="@+id/menu_live"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginBottom="3.3dp"
+                    android:clickable="true"
+                    android:background="@drawable/menu_live_unselected"
+                    />
+
+                <ImageView
+                    android:id="@+id/menu_me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignBottom="@id/menu_live"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginBottom="3.3dp"
+                    android:clickable="true"
+                    android:background="@drawable/menu_me_unselected"
+                    />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:background="@null">
+
+            <ImageButton
+                android:id="@+id/image_btn_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_show_normal"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</TabHost>

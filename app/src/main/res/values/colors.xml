@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="snow">#FFFAFA</color><!--雪白色 -->
+    <color name="chocolate">#D2691E</color><!--巧可力色 -->
+    <color name="aquamarine">#00BCD4</color><!--碧绿色   #00CAC3 -->
+    <color name="green">#008000</color><!--绿色 -->
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="gray">#808080</color><!--灰色 -->
+    <color name="mygray">#868686</color>
+    <color name="lightgray">#D3D3D3</color><!--亮灰色 -->
+    <color name="whitesmoke">#F5F5F5</color><!--烟白色 -->
+    <color name="topbar_color">#ffd84741</color>
+    <!-- 自定义 -->
+    <color name="btn">#CDDC39</color>
+    <color name="skin_input">#000000</color>
+    <color name="chat_input_shadow_color">#C8C9CA</color>
+    <color name="common_pressed">#770000</color>
+    <color name="common_normal">#ffd84741</color>
+    <color name="labelbg">#ffc0c0c0</color>
+    <color name="blue">#ff4a8fe1</color>
+    <color name="headbg">#ffc0744f</color>
+    <color name="half_transparent">#50000000</color>
+    <color name="full_transparent">#00000000</color>
+
+
+
+    <color name="line_color">#dedede</color>
+    <color name="label_text_color">#000000</color>
+    <color name="input_text_color">#777777</color>
+    <color name="main_theme_color">#ff8c322c</color>
+    <color name="indicators_color">#dc3839</color>
+    <color name="red">#dc3839</color>
+    <color name="main_gray">#777777</color>
+    <color name="layout_click_color">#efefef</color>
+
+    <drawable name="normal">#ffffff</drawable>
+    <drawable name="pressed">#efefef</drawable>
+    <color name="dialog_btn_pressed_color">#efefef</color>
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parade_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/parade_live_title_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/widget_margin_left"
+            android:layout_marginTop="19dp"
+            android:gravity="center_vertical"
+            android:text="直播预告标题"
+            android:textSize="@dimen/label_text_size"
+            android:textColor="@color/label_text_color"
+            android:background="@null"
+            />
+
+        <!--直播标题-->
+        <EditText
+            android:id="@+id/parade_live_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="@dimen/widget_margin_left"
+            android:layout_marginRight="@dimen/widget_margin_right"
+            android:layout_below="@id/parade_live_title_tip"
+            android:hint="@string/live_title_hint"
+            android:textSize="@dimen/input_text_size"
+            android:textColor="@color/input_text_color"
+            android:background="@null"
+            android:typeface="monospace"
+            />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="@dimen/line_margin_left"
+            android:layout_marginRight="@dimen/line_margin_right"
+            android:layout_below="@id/parade_live_title"
+            android:background="@color/gray" />
+
+        <TextView
+            android:id="@+id/parade_live_cover_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:layout_marginLeft="@dimen/widget_margin_left"
+            android:layout_below="@id/line"
+            android:text="@string/live_cover_hint"
+            android:textSize="@dimen/label_text_size"
+            android:textColor="@color/label_text_color"
+            android:background="@null"
+            />
+
+        <!--直播封面-->
+        <ImageButton
+            android:id="@+id/parade_live_cover"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cover_height"
+            android:layout_below="@id/parade_live_cover_tip"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="@dimen/widget_margin_left"
+            android:layout_marginRight="@dimen/widget_margin_right"
+            android:contentDescription="@string/content_desc"
+            android:background="@drawable/release_cover"
+            android:scaleType="fitXY"
+            >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/close_parade_live_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/parade_live_cover_tip"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="33dp"
+            android:background="@drawable/close_cover_style"
+            android:contentDescription="closeCover"
+            android:visibility="gone"
+            >
+        </ImageButton>
+
+
+        <TextView
+            android:id="@+id/parade_time_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:layout_marginLeft="@dimen/widget_margin_left"
+            android:layout_below="@id/parade_live_cover"
+            android:text="直播时间"
+            android:textSize="@dimen/label_text_size"
+            android:textColor="@color/label_text_color"
+
+            />
+
+        <TextView
+            android:id="@+id/parade_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/parade_time_tip"
+            android:layout_marginLeft="@dimen/widget_margin_left"
+            android:layout_marginTop="19dp"
+            android:gravity="center_vertical"
+            android:text="00-00 00:00"
+            android:textSize="@dimen/input_text_size"
+            android:textColor="#bebebe"
+            android:clickable="true" />
+
+        <TextView
+            android:id="@+id/remaining_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/parade_time"
+            android:layout_alignBottom="@id/parade_time"
+            android:layout_marginRight="@dimen/widget_margin_right"
+            android:gravity="right"
+            android:textSize="@dimen/input_text_size"
+            android:textColor="#bebebe"
+            android:clickable="true" />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/parade_time"
+            android:layout_marginLeft="@dimen/widget_margin_left"
+            android:layout_marginRight="@dimen/widget_margin_right"
+            android:background="@color/line_color" />
+
+        <Button
+            android:id="@+id/btn_parade_time_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line2"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="@dimen/widget_margin_right"
+            android:background="@null"
+            android:text="确定"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/btn_release_parade"
+            android:layout_width="333dp"
+            android:layout_height="44dp"
+            android:layout_below="@id/line2"
+            android:layout_marginTop="29dp"
+            android:layout_centerHorizontal="true"
+            android:text="立即发布"
+            android:textColor="@color/red"
+            android:textSize="@dimen/button_text_size"
+            android:background="@drawable/main_btn_style"
+            android:enabled="false"
+            />
+
+    </RelativeLayout>
+
+    <!--‘直播’按钮-->
+</LinearLayout>

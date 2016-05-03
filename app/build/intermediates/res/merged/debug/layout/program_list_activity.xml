@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:id="@android:id/tabhost">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="60dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TabWidget
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@android:id/tabs"
+            android:visibility="gone"/>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@android:id/tabcontent">
+
+            <RelativeLayout
+                android:id="@+id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:id="@+id/live_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:text="最新直播"
+                    android:textSize="@dimen/label_text_size"
+                    android:textColor="@color/indicators_color"
+                    android:clickable="true"/>
+
+                <View
+                    android:id="@+id/line0"
+                    android:layout_width="80dp"
+                    android:layout_height="3dp"
+                    android:layout_below="@id/live_list"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/indicators_color"/>
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/record_list"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignBottom="@id/live_list"-->
+                    <!--android:layout_toRightOf="@id/live_list"-->
+                    <!--android:layout_marginLeft="40dp"-->
+                    <!--android:text="精彩回放"-->
+                    <!--android:textSize="@dimen/label_text_size"-->
+                    <!--android:textColor="@color/indicators_color"-->
+                    <!--android:clickable="true"/>-->
+
+                <!--<View-->
+                    <!--android:id="@+id/line1"-->
+                    <!--android:layout_width="80dp"-->
+                    <!--android:layout_height="3dp"-->
+                    <!--android:layout_marginLeft="40dp"-->
+                    <!--android:layout_toRightOf="@id/line0"-->
+                    <!--android:layout_below="@id/record_list"-->
+                    <!--android:layout_marginTop="12dp"-->
+                    <!--android:background="@color/indicators_color"/>-->
+
+
+
+
+                <TextView
+                    android:id="@+id/parade_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/live_list"
+                    android:layout_toRightOf="@id/live_list"
+                    android:layout_marginLeft="40dp"
+                    android:text="直播预告"
+                    android:textSize="@dimen/label_text_size"
+                    android:textColor="@color/indicators_color"
+                    android:clickable="true"/>
+
+
+                <View
+                    android:id="@+id/line1"
+                    android:layout_width="80dp"
+                    android:layout_height="3dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@id/line0"
+                    android:layout_below="@id/parade_list"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/indicators_color"/>
+
+                <View
+                    android:id="@+id/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/line0"
+                    android:background="@color/line_color"/>
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>

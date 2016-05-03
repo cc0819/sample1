@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_memberinfo_dialog"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/close_memberInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:background="@drawable/icon_closebtn_button" />
+
+    <com.tencent.avsdk.CircularImageButton
+        android:id="@+id/memberinfo_head"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/userlogo"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <TextView
+        android:id="@+id/memberinfo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="19dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="name111"
+        android:textColor="@color/black"
+        android:textSize="@dimen/label_text_size" />
+
+    <LinearLayout
+        android:id="@+id/btns_dialog"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/mute_voice"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/icon_control_voice_button"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/line_1"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/gray" />
+
+
+        <Button
+            android:id="@+id/mute_video"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/icon_control_video_button"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/line_2"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/gray" />
+
+        <Button
+            android:id="@+id/switch_video"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/icon_switchvideo_button"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/line_3"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/gray" />
+
+
+        <Button
+            android:id="@+id/hung_up"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/icon_hungup_button"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textSize="@dimen/text_size" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="互动直播中" />
+
+
+    <!--<Button-->
+    <!--android:id="@+id/close_memberInfo"-->
+    <!--android:layout_width="296dp"-->
+    <!--android:layout_height="51dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:background="@drawable/dialog_btn_style"-->
+    <!--android:focusable="false"-->
+    <!--android:focusableInTouchMode="false"-->
+    <!--android:text="关闭"-->
+    <!--android:textColor="#dc3839"-->
+    <!--android:textSize="@dimen/text_size" />-->
+</LinearLayout>

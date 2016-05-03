@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/qav_gaudio_grid_item_width"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/qav_gaudio_face"
+        android:layout_width="@dimen/audio_friend_imgW"
+        android:layout_height="@dimen/audio_friend_imgW"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@null"
+        android:src="@drawable/h001" />
+
+    <ImageView
+        android:id="@+id/qav_gaudio_face_cover"
+        android:layout_width="@dimen/audio_friend_imgW"
+        android:layout_height="@dimen/audio_friend_imgW"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@null"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/qav_gaudio_name"
+        style="@style/Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qav_gaudio_face"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/qav_gaudio_member_name_margin_top"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:maxWidth="@dimen/qav_gaudio_member_name_width"
+        android:singleLine="true"
+        android:textSize="12sp" />
+
+</RelativeLayout>

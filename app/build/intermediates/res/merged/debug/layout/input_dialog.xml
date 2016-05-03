@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_style">
+
+    <TextView
+        android:id="@+id/input_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57px"
+        android:layout_marginBottom="57px"
+        android:background="@null"
+        android:text="填写XXX"
+        android:textColor="@color/black"
+        android:textSize="54px"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:layout_marginBottom="20px"
+        android:textColor="@color/black"
+        android:textSize="51px"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#d1d1d1"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="153px"
+        android:orientation="horizontal"
+        android:background="@drawable/dialog_style"
+        >
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_style"
+            android:text="取消"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/main_gray"/>
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="fill_parent"
+            android:background="#d1d1d1"
+            />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_style"
+            android:text="确定"
+            android:textSize="@dimen/text_size"
+            android:textColor="#dc3839"/>
+    </LinearLayout>
+</LinearLayout>

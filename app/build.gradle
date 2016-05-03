@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'bugly'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.tencent.avsdk"
+        minSdkVersion 8
+        targetSdkVersion 19
+
+
+    }
+
+
+    signingConfigs {
+        release {
+            storeFile file("../build/target/product/security/.keystore")
+            storePassword "tencent"
+            keyAlias "show"
+            keyPassword "tencent"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:22.1.1'
+    compile files('libs/httpmime-4.1.1.jar')
+    compile files('libs/bugly_1.2.8_imsdk_release.jar')
+    compile files('libs/eup_1.9.2__allproguad_rqdp.jar')
+    compile files('libs/wup-1.0.0-SNAPSHOT.jar')
+    compile files('libs/imsdk.jar')
+    compile files('libs/mobilepb.jar')
+    compile files('libs/qavsdk.jar')
+    compile files('libs/universal-image-loader-1.9.4.jar')
+    compile files('libs/tls_sdk.jar')
+    compile files('libs/qalsdk.jar')
+    compile files('libs/beacon_android_v1.9.9.jar')
+}

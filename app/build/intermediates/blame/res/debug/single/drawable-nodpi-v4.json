@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/label_style.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-nodpi/label_style.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/h001.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-nodpi/h001.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/remaining_time_dialog_close_normal.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-nodpi/remaining_time_dialog_close_normal.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/password.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-nodpi/password.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/tv.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-nodpi/tv.png"
+    }
+]

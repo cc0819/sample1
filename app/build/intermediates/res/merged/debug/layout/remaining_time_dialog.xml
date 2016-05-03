@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1080px"
+        android:layout_marginTop="30px"
+        android:background="@null">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="21px"
+            android:layout_marginLeft="21px"
+            android:layout_marginRight="21px"
+            android:background="@drawable/dialog_style">
+
+            <TextView
+                android:id="@+id/dialog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84px"
+                android:text="离直播还有"
+                android:textSize="54px"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/remaining_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/dialog_title"
+                android:layout_marginTop="81px"
+                android:text="00:00:00"
+                android:textSize="102px"
+                android:textColor="#bbbbbb"/>
+
+            <ImageView
+                android:id="@+id/user_image"
+                android:layout_width="322px"
+                android:layout_height="322px"
+                android:layout_below="@id/remaining_timer"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="81px"
+                android:background="@drawable/userlogo"/>
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="39px"
+                android:text="username"
+                android:textSize="45px"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/user_name"
+                android:layout_marginTop="34px"
+                android:gravity="center_vertical"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/heart"/>
+
+                <TextView
+                    android:id="@+id/praise_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24px"
+                    android:text="0"
+                    android:textSize="42px"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/close_remaining_time_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/remaining_time_dialog_close_style"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

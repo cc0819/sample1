@@ -1,0 +1,64 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\QAVSDKDemoMulti.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* build.xml
+* doc\
+* doc\多人Demo sdk流程图.png
+* doc\音视频SDK API说明文档.zip
+* ic_launcher-web.png
+* proguard-project.txt
+* 多人Demo使用说明.doc
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\armeabi\lib_imcore_jni_gyp.so => app\src\main\jniLibs\armeabi\lib_imcore_jni_gyp.so
+* libs\armeabi\libNativeRQD.so => app\src\main\jniLibs\armeabi\libNativeRQD.so
+* libs\armeabi\libqav_graphics.so => app\src\main\jniLibs\armeabi\libqav_graphics.so
+* libs\armeabi\libqavsdk.so => app\src\main\jniLibs\armeabi\libqavsdk.so
+* libs\armeabi\libstlport_shared.so => app\src\main\jniLibs\armeabi\libstlport_shared.so
+* libs\armeabi\libTcVpxDec.so => app\src\main\jniLibs\armeabi\libTcVpxDec.so
+* libs\armeabi\libTcVpxEnc.so => app\src\main\jniLibs\armeabi\libTcVpxEnc.so
+* libs\armeabi\libtraeimp-armeabi-v7a.so => app\src\main\jniLibs\armeabi\libtraeimp-armeabi-v7a.so
+* libs\armeabi\libxplatform.so => app\src\main\jniLibs\armeabi\libxplatform.so
+* libs\eup_1.9.2__allproguad_rqdp.jar => app\libs\eup_1.9.2__allproguad_rqdp.jar
+* libs\imsdk.jar => app\libs\imsdk.jar
+* libs\qavsdk.jar => app\libs\qavsdk.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

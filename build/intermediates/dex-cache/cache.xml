@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/cc/Downloads/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.1.1_d9e2b63afde6c3459df23da294c6bcbffc5c8b02/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/libs/mobilepb.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="a5e62566e5023a4497edcb883324e82771c8c9fb">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/2/mobilepb_124c838a29c915cc5d416d68c47fda9caef34b81/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/libs/wup-1.0.0-SNAPSHOT.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="dd8fa9304e376adaf936c3db097240d2efcb116f">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/2/wup-1.0.0-SNAPSHOT_3d0eaac53617585f038d85e06d5be9c10f656f1e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/libs/httpmime-4.1.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="d34b163e52a9727101aced60775d51c5085390a1">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpmime-4.1.1_e9891077eec3693ddbf219f735424e39ca906618/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/libs/bugly_1.2.8_imsdk_release.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="b7cda4b61b114dd9684be56309411b5eb251b611">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/2/bugly_1.2.8_imsdk_release_9c918209f1f21e031322071129f36709da7354dd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/libs/qavsdk.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="6824a94048d9c44d203d2c92f786780714e83e4e">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/2/qavsdk_d5142bb9dacca30709ccec53c33be406557212f1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/libs/beacon_android_v1.9.9.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="bfb018e8073e59236f150fbf261e184996ee7abc">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/2/beacon_android_v1.9.9_7667384a36035ef023571cba2affcc8987426f69/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="7392673408e88b8db8f9cac211c706450d48349d">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_980a3e89957f790ca1dc7ac519d2cb7ec4aceb0c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.1.1_b3679a4f980d7a07878d121116a9f9de83acab33/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.1.1_0899c754473b850e210fa2c94bf54956e22e8a3e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/libs/tls_sdk.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="a6fdd5189b8a788ff05e1a9216e2700d891fae1a">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/2/tls_sdk_0748a01ba0996eedb0a41b5942f93686d59c9b07/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/libs/universal-image-loader-1.9.4.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.4_815998cfe01bf6d22c089e087b874e360750fb66/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/libs/imsdk.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="1e61c7e767cd4cf3ffbc05b76337b761b35b4ac4">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/2/imsdk_8c13378fa170a9ae2388e95502edb5342745ac70/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/libs/qalsdk.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="73813dfa880475cd77d83d362f43e5c17e444993">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/2/qalsdk_2bb225b6f77c74c25d198996065d1dd98f1ecec0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/libs/eup_1.9.2__allproguad_rqdp.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="dc2a82e6063ab032c96bacc96b0bd8dc929da9ab">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/2/eup_1.9.2__allproguad_rqdp_23339cd30dde7fc081ccfdd39ef7a5a6840fe79e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="01002126ebe6d7d1d565210c13c89a1d3cc39669">
+        <dex dex="/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c0146af30948b0bde85bfcd37eb731a484d5e916/classes.dex" />
+    </item>
+
+</items>

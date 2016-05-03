@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_memberinfo_dialog"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/close_memberInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:background="@drawable/icon_closebtn_button"
+      />
+
+    <com.tencent.avsdk.CircularImageButton
+        android:id="@+id/memberinfo_head"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/userlogo"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <TextView
+        android:id="@+id/memberinfo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="19dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/label_text_size" />
+
+    <TextView
+        android:id="@+id/close_videochat"
+        android:layout_width="220dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/btn_default"
+        android:focusable="false"
+        android:layout_marginTop="20dp"
+        android:focusableInTouchMode="false"
+        android:text="关闭与TA的直播互动"
+        android:textColor="#dc3839"
+        android:textSize="@dimen/text_size" />
+
+
+    <TextView
+        android:id="@+id/invite_info"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:focusable="false"
+        android:layout_marginTop="5dp"
+        android:focusableInTouchMode="false"
+        android:gravity="center_horizontal"
+        android:text="最多可以与3位观众进行互动"
+        android:textColor="@color/black"
+        android:textSize="@dimen/tip_size" />
+
+    <!--<Button-->
+        <!--android:id="@+id/close_memberInfo"-->
+        <!--android:layout_width="296dp"-->
+        <!--android:layout_height="51dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@drawable/dialog_btn_style"-->
+        <!--android:focusable="false"-->
+        <!--android:focusableInTouchMode="false"-->
+        <!--android:text="关闭"-->
+        <!--android:textColor="#dc3839"-->
+        <!--android:textSize="@dimen/text_size" />-->
+</LinearLayout>

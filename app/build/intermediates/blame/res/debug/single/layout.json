@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/parade_activity.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/parade_activity.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/login_activity.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/login_activity.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/live_item.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/live_item.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/qav_bottom_bar.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/qav_bottom_bar.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/exit_dialog.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/exit_dialog.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/program_list_activity.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/program_list_activity.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/layout_spinneritem.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/layout_spinneritem.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/userinfo.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/userinfo.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/time_picker.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/time_picker.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/personal_center_activity.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/personal_center_activity.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/member_head_image.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/member_head_image.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/register_activity.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/register_activity.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/qav_video_layer_ui.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/qav_video_layer_ui.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/sex_dialog.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/sex_dialog.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/parade_item.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/parade_item.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/qav_beauty_setting.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/qav_beauty_setting.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/alert_dialog.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/release_parade_activity.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/release_parade_activity.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/av_activity.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/av_activity.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/videomember_info_dialog.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/videomember_info_dialog.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/live_activity.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/live_activity.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/vc_invitedialog.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/vc_invitedialog.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/memberlist_dialog_.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/memberlist_dialog_.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/release_live_activity.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/release_live_activity.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/game_over_activity.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/game_over_activity.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/record_param.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/record_param.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/layout_member_item.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/layout_member_item.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/release_activity.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/release_activity.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/qav_gaudio_item.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/qav_gaudio_item.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/chat_item_left.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/chat_item_left.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/video_member_info_dialog.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/video_member_info_dialog.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/qav_top_bar.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/qav_top_bar.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/remaining_time_dialog.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/remaining_time_dialog.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/member_info_dialog.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/member_info_dialog.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/push_param.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/push_param.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/input_dialog.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/input_dialog.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/about_dialog.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/about_dialog.xml"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/layout/start_activity.xml",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/layout/start_activity.xml"
+    }
+]

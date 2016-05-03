@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceScreen
+        android:summary="@string/handfree_summary"
+        android:title="@string/video_handfree" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.tencent.avsdk.activity.HandfreeActivity"
+            android:targetPackage="com.tencent.avsdk" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:summary="@string/mic_summary"
+        android:title="@string/mic" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.tencent.avsdk.activity.MuteActivity"
+            android:targetPackage="com.tencent.avsdk" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:summary="@string/camera_summary"
+        android:title="@string/video_camera_txt" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.tencent.avsdk.activity.CameraActivity"
+            android:targetPackage="com.tencent.avsdk" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:summary="@string/video_switch_camera"
+        android:title="@string/video_switch_camera" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.tencent.avsdk.activity.SwitchCameraActivity"
+            android:targetPackage="com.tencent.avsdk" />
+    </PreferenceScreen>
+</PreferenceScreen>

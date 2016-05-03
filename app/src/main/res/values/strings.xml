@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">随心播</string>
+    <string name="live_title_hint">取个好名字更加吸引人哦...</string>
+    <string name="live_cover_hint">封面图片</string>
+    <string name="content_desc">这是直播封面</string>
+    <string name="show_btn_txt">立即直播</string>
+
+
+
+
+    <string name="formal_environment">正式环境</string>
+    <string name="test_environment">测试环境</string>
+    <string name="login_error_login_failed">用户帐号或密码错误</string>
+    <string name="login_error_empty_input">帐号或密码不能为空</string>
+    <string name="login_net_error">网络链接错误</string>
+    <string name="login_sms_password_empty">验证码输入为空</string>
+    <string name="btn_get_sms_password">获取验证码</string>
+
+
+
+    <string name="handfree_summary">开关扬声器</string>
+    <string name="video_handfree">免提</string>
+    <string name="mic_summary">开关麦克风</string>
+    <string name="mic">麦克风</string>
+    <string name="camera_summary">开关摄像头</string>
+    <string name="video_camera_txt">摄像头</string>
+    <string name="video_switch_camera">切换摄像头</string>
+
+
+
+    <string name="error_code_prefix">错误码：</string>
+    <string name="interface_initialization">界面初始化中</string>
+    <string name="at_login">登录中</string>
+    <string name="login_failed">登录失败</string>
+    <string name="at_logout">登出中</string>
+    <string name="at_on_camera">打开摄像头中</string>
+    <string name="on_camera_failed">打开摄像头失败</string>
+    <string name="at_off_camera">关闭摄像头中</string>
+    <string name="off_camera_failed">关闭摄像头失败</string>
+    <string name="at_switch_front_camera">换用前置摄像头中</string>
+    <string name="switch_front_camera_failed">换用前置摄像头失败</string>
+    <string name="at_switch_back_camera">换用后置摄像头中</string>
+    <string name="switch_back_camera_failed">换用后置摄像头失败</string>
+    <string name="at_close_room">关闭房间中</string>
+    <string name="notify_network_timeout">超时异常</string>
+    <string name="notify_network_error">网络无法联通，请检查网络</string>
+    <string name="notify_no_network">网络无连接，请检查网络</string>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/qav_top_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="@color/black"
+    android:layout_alignWithParentIfMissing="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/top_bar_time_bg" />
+
+    <com.tencent.avsdk.CircularImageButton
+        android:id="@+id/host_head"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/userlogo" />
+
+    <TextView
+        android:id="@+id/live_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@id/host_head"
+        android:gravity="center_vertical"
+        android:text="直播中"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/qav_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/live_label"
+        android:gravity="center_vertical"
+        android:text="00:00:00"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+
+
+    <ImageButton
+        android:id="@+id/qav_topbar_hangup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/close_av_style" />
+
+
+    <ImageButton
+        android:id="@+id/qav_topbar_switchcamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="23dp"
+        android:layout_toLeftOf="@id/qav_topbar_hangup"
+        android:background="@drawable/switch_camera_style" />
+
+    <ImageButton
+        android:id="@+id/mic_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="23dp"
+        android:layout_toLeftOf="@id/qav_topbar_switchcamera"
+        android:background="@drawable/mic1" />
+
+
+
+    <TextView
+        android:id="@+id/param_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="23dp"
+        android:layout_toLeftOf="@id/mic_btn"
+        android:background="@drawable/icon_param_button" />
+
+
+    <TextView
+        android:id="@+id/beauty_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="23dp"
+        android:layout_toLeftOf="@id/param_video"
+        android:visibility="invisible"
+        android:background="@drawable/icon_beauty_button" />
+</RelativeLayout>

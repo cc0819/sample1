@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_style"
+    >
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="19dp"
+        android:text="复制到粘贴板"
+        android:textSize="@dimen/label_text_size"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="19dp"
+        android:text="message"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:id="@+id/dialog_message2"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="19dp"
+        android:text="message"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"/>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="19dp"
+        android:background="#d1d1d1"/>
+    <Button
+        android:id="@+id/close_dialog"
+        android:layout_width="296dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:background="@drawable/dialog_btn_style"
+        android:text="关闭"
+        android:textSize="@dimen/text_size"
+        android:textColor="#dc3839"/>
+</LinearLayout>

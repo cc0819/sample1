@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/mic3.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-xxhdpi/mic3.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/par1.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-xxhdpi/par1.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/mic4.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-xxhdpi/mic4.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/report1.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-xxhdpi/report1.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/mic2.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-xxhdpi/mic2.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/close2.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-xxhdpi/close2.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/camera2.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-xxhdpi/camera2.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/par2.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-xxhdpi/par2.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/beauty1.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-xxhdpi/beauty1.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/mic1.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-xxhdpi/mic1.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/camera1.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-xxhdpi/camera1.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/close1.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-xxhdpi/close1.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/beauty2.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-xxhdpi/beauty2.png"
+    },
+    {
+        "merged": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/report2.png",
+        "source": "/Users/cc/Downloads/AV_Android_SDK1.7.0/samples/sample1/app/src/main/res/drawable-xxhdpi/report2.png"
+    }
+]

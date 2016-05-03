@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@+id/image_view_live_cover_image"
+            android:layout_width="fill_parent"
+            android:layout_height="230dp"
+            android:tileMode = "repeat"
+            android:scaleType="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="end"
+            android:padding="5dp"
+            android:background="@drawable/live_label"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:id="@+id/Share"
+            android:layout_gravity="start"
+            android:layout_marginLeft="5dp"
+            android:background="#ff4acc59"
+            android:text="分享"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignBottom="@id/framelayout"
+        android:alpha="0.5"
+        android:background="@color/black">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignBottom="@id/framelayout"
+        android:background="@null">
+
+        <com.tencent.avsdk.CircularImageButton
+            android:id="@+id/image_btn_user_logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerInside"
+            android:background="@drawable/userlogo"/>
+
+        <TextView
+            android:id="@+id/text_view_live_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image_btn_user_logo"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="直播标题"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/text_view_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_live_title"
+            android:layout_alignLeft="@id/text_view_live_title"
+            android:text="\@直播用户"
+            android:textSize="14dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/text_view_live_praise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="10dp"
+            android:text="1234"
+            android:textSize="16sp"
+            android:textColor="@color/white"/>
+
+        <ImageButton
+            android:id="@+id/image_btn_praise_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/text_view_live_praise"
+            android:layout_alignBottom="@id/text_view_live_praise"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="3dp"
+            android:scaleType="centerInside"
+            android:background="@drawable/praise"
+            />
+
+        <TextView
+            android:id="@+id/text_view_live_viewer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/image_btn_praise_star"
+            android:layout_alignBottom="@id/text_view_live_praise"
+            android:layout_marginRight="10dp"
+            android:text="1234"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+        <ImageButton
+            android:id="@+id/image_btn_viewer_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/text_view_live_viewer"
+            android:layout_alignBottom="@id/text_view_live_viewer"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="3dp"
+            android:scaleType="centerInside"
+            android:background="@drawable/viewer"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

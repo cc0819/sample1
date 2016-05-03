@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/av_screen_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/av_video_layer_ui"
+        layout="@layout/qav_video_layer_ui"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/qav_tips_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="80dp"
+        android:maxLength="2000"
+        android:singleLine="false"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/qav_topbar_streamtype"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/activity_top_label_height"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_av_press"
+        android:padding="5dp"
+        android:text="HLS"
+        android:textColor="@color/whitesmoke"
+        android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/qav_topbar_push"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/activity_top_label_height"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="50dp"
+        android:layout_toLeftOf="@+id/qav_topbar_streamtype"
+        android:background="@drawable/btn_av_press"
+        android:padding="5dp"
+        android:text="旁路直播"
+        android:textColor="@color/whitesmoke"
+        android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/qav_topbar_record"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/activity_top_label_height"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="50dp"
+        android:layout_toLeftOf="@+id/qav_topbar_push"
+        android:background="@drawable/btn_av_press"
+        android:padding="5dp"
+        android:text="录制"
+        android:textColor="@color/whitesmoke"
+        android:textSize="@dimen/text_size" />
+
+
+    <include
+        android:id="@+id/qav_top_bar"
+        layout="@layout/qav_top_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <include
+        android:id="@+id/qav_bottom_bar"
+        layout="@layout/qav_bottom_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <include
+        android:id="@+id/qav_beauty_setting"
+        layout="@layout/qav_beauty_setting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/qav_show_tips"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:background="@null"
+        android:singleLine="false"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/btn_member_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/icon_memberlist_button"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="0" />
+
+
+    <FrameLayout
+        android:id="@+id/inviteMaskItem3"
+        android:layout_width="60dp"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="350dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/inviteMaskHead3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop" />
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/mask"
+             />
+
+        <TextView
+            android:id="@+id/inviteMaskInfo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="呼叫中" />
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/inviteMaskItem2"
+        android:layout_width="60dp"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="230dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/inviteMaskHead2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/mask"
+            />
+
+        <TextView
+            android:id="@+id/inviteMaskInfo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="呼叫中" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/inviteMaskItem1"
+        android:layout_width="60dp"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="110dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/inviteMaskHead1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/mask"
+            />
+
+        <TextView
+            android:id="@+id/inviteMaskInfo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="呼叫中" />
+    </FrameLayout>
+
+
+</RelativeLayout>

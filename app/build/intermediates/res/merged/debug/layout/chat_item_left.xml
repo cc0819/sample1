@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="5dp">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/tv_chatcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@drawable/common_background"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="4dp"
+            android:maxWidth="250dp"
+            android:text="null"
+            android:textSize="14dp"
+            />
+
+        <com.tencent.avsdk.CircularImageButton
+            android:id="@+id/tv_chat_head_image"
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:focusable="false"
+            android:background="@drawable/userlogo"
+            />
+
+
+    </RelativeLayout>
+</LinearLayout>

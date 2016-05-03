@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@+id/image_view_parade_cover_image"
+            android:layout_width="fill_parent"
+            android:layout_height="230dp"
+            android:tileMode = "repeat"
+            android:scaleType="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="end">
+
+            <TextView
+                android:id="@+id/start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:background="@drawable/remaining_time_label"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/white"
+                android:text="00分00秒"
+                android:textSize="20sp"
+                />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignBottom="@id/framelayout"
+        android:alpha="0.5"
+        android:background="@color/black">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignBottom="@id/framelayout"
+        android:background="@null">
+
+        <com.tencent.avsdk.CircularImageButton
+            android:id="@+id/image_btn_parade_user_logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerInside"
+            android:background="@drawable/userlogo"/>
+
+        <TextView
+            android:id="@+id/text_view_parade_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image_btn_parade_user_logo"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="直播标题"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/text_view_parade_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_parade_title"
+            android:layout_alignLeft="@id/text_view_parade_title"
+            android:text="\@直播用户"
+            android:textSize="14dp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+</RelativeLayout>

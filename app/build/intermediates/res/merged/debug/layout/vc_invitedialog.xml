@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_style">
+
+<TextView
+    android:id="@+id/message"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="19dp"
+    android:layout_marginBottom="19dp"
+    android:background="@null"
+    android:text="主播邀请您进行直播互动？"
+    android:textColor="@color/black"
+    android:textSize="18dp"
+    android:gravity="center_horizontal" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#d1d1d1"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:background="@drawable/dialog_style"
+        >
+        <Button
+            android:id="@+id/btn_exit_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_style"
+            android:text="残忍拒绝"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/main_gray"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#d1d1d1"
+            />
+
+        <Button
+            android:id="@+id/btn_exit_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_style"
+            android:text="愉快答应"
+            android:textSize="@dimen/text_size"
+            android:textColor="#dc3839"/>
+    </LinearLayout>
+</LinearLayout>

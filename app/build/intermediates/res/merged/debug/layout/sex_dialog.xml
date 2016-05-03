@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_style"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="57px"
+        android:text="请选择性别"
+        android:textSize="@dimen/label_text_size"
+        android:textColor="@color/black"/>
+
+    <RadioGroup
+        android:id="@+id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="57px">
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="女"
+            android:textSize="51px"
+            android:textColor="@color/black"
+            android:checked="true"
+            android:onClick="onSingleMode"/>
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:textSize="51px"
+            android:textColor="@color/black"
+            android:onClick="onTLSMode"
+            />
+    </RadioGroup>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="57px"
+        android:background="#d1d1d1"/>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="888px"
+        android:layout_height="153px"
+        android:layout_gravity="center"
+        android:background="@drawable/dialog_btn_style"
+        android:text="确定"
+        android:textSize="@dimen/text_size"
+        android:textColor="#dc3839"/>
+</LinearLayout>
